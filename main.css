@@ -1,9 +1,5 @@
 body {
     background-color: gray;
-    min-height: 100vh;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 body h1{
     color: blue;
@@ -12,6 +8,11 @@ body h1{
 @media (max-width: 680px) {
     body {
         background-color: black;
+        min-height: 100vh;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
     }
     body h1{
         font-size: 18px;
