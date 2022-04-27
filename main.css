@@ -1,0 +1,15 @@
+body {
+    background-color: gray;
+}
+body h1{
+    color: blue;
+}
+
+@media (max-width: 680px) {
+    body {
+        background-color: black;
+    }
+    body h1{
+        color: white;
+    }
+}
